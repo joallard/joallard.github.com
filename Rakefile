@@ -8,3 +8,13 @@ task :parse_haml do
   puts "done."
 end
 
+desc "Parse HAML and SCSS"
+task :prepare do
+  print "Preparing stuff for Github wuss... "
+  system(%{
+    haml _index.haml index.html;
+    sass --scss stylesheets/_style.scss stylesheets/style.css
+  })
+  puts "Done."
+end
+
