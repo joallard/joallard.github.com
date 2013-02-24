@@ -11,7 +11,11 @@ Many people know the trick to convert from F to C mentally:
     (F-32) ÷ 2
     
 However, the accurate formula being multiplying by 5/9 instead of 1/2
-(or 5/10), we introduce a relative error of 10% (we arrive at 10% below
+(or 5/10), 
+
+    (F-32) × 5/9
+
+we introduce a relative error of 10% (we arrive at 10% below
 our real figure).
 
 To compensate, we could multiply by 10/9 (1.111...), but dividing by 
