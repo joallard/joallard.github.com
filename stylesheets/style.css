@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box; }
@@ -61,11 +60,8 @@ body > header {
       padding: 0;
       margin: 0; }
     body > header nav li {
-      display: inline-block; }
-    body > header nav li:after {
-      content: " · "; }
-    body > header nav li:last-of-type:after {
-      content: none; }
+      display: inline-block;
+      margin: 0 0 0 6px; }
 
 time {
   text-transform: uppercase;
