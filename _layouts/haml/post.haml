@@ -3,14 +3,10 @@
 \---
 \
 %article
-  -# @time = Time.parse(page.date)
-  -#%time{title: @time.iso8601, datetime: @time.iso8601}
-    = @time.strftime("%-d %b %Y – %R")
-  -#
-    %time.square{title: @time.iso8601, datetime: @time.iso8601, pubdate: true}
-      %span.year= @time.year
-      %span.day= @time.day
-      %span.month= @time.strftime("%b")
+  %time.square{datetime: "{{ post.date }}", title: "{{ post.date}}", pubdate: true}
+    .year {{ post.date | date: "%Y" }}
+    .day {{ post.date | date: "%d" }}
+    .month {{ post.date | date: "%b" }}
   %h1 {{ page.title }}
   {{ content }}
 %hr
