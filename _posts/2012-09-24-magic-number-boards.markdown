@@ -6,25 +6,25 @@ comments: true
 categories: education units-of-information math binary
 ---
 
-My second grade teacher had a magic trick. She had a series of 
-boards with some numbers written on it, usually from 1 to 40 or so.
+My second grade teacher used to have a magic trick. She had a series of
+boards with a bunch of numbers written on it, usually from 1 to 40 or
+so.
 
-The kids had to choose a number while the teacher wasn't looking 
-(out in the hallway). She would then come back and ask the class if 
-their number was on each board. After she went through all the 
-boards, she would tell us the number. Magic!
+The kids had to choose a number while the teacher wasn't looking (she
+waited out in the hallway). She would then come back and show the class
+each board and ask them if *the number* was on it.  After she went
+through all the boards, she would tell us the number. Magic!
 
-For the second grader that I was, it was pretty impressive. After 
+For the second grader that I was, it was pretty impressive. After the
 five boards or so, she knew. She must have had a damn good memory!
 
-I suspected something was off. There had to be a trick. Of course, the
-whole group though she must have been reading the erasures of the
-black board we were writing the number on, or looking through the 
-door window.  And they made damn sure she didn't. But this wasn't it.
+But I suspected something was off. There had to be a trick, of course.
+The whole group thought she must have been reading the erasures of the
+black board we were writing the number on, or looking through the door
+window. And they made damn sure she didn't. But this wasn't it.
 
-Time after time, I observed and observed. And figured it out. When I 
-asked to try at her place, I managed the same feat. The class was 
-stunned.
+Time after time, I observed. And figured it out. When I asked to try at
+her place, I managed the same feat. The class was stunned.
 
 The Experiment
 --------------
@@ -62,6 +62,8 @@ them each card successively and ask them if their number was there.
 Half a second after we were done through the six cards, I would
 tell them their number.
 
+Can you?
+
 I made a point of hiding the cards before and after the trick, while
 we were discussing, and to distract them a bit with some talking at
 some points.
@@ -85,36 +87,35 @@ Science in Cegep.
 * To each card I say yes or no, so it's kind of like a 1 or 0 on each
   card. It's kind of a binary thing.
 
-
 The Explanation
 ---------------
-Strange thing: the boards aren't numbered sequentially. They were 
+Strange thing: the boards aren't numbered sequentially. They are
 numbered 1, 2, 4, 8, 16, 32. What a strange sequence for numbering 
-boards. Something was up.
+boards. Something's up.
 
 There was still a mystery to me: how did she make those boards? 
 Because they were clearly handmade.
 
-What if somehow, those numbered meant something? What if they...
-added up to the magical number? Exact.
+What if somehow, those numbers meant something? What if they...
+added up to the magical number? Correct.
 
-My teacher was using the same logic as the one behind the binary
-numeral system. Either the number is one a board, or it is not. With
-each successive board, we go bit by bit. Each board represents a binary
-digit (bit!) in the number. Over six boards, we could
-select one number out of 64 (or 2^6 ).
+My teacher was using the same logic as the one behind the binary numeral
+system. Either the number is one a board, or it is not. With each
+successive board, we go bit by bit. Each board represents a binary digit
+(bit!) in the number. Over six boards, we could select one number out of
+64 (or 2^6 ). So the number 37, 100101 in binary, the sum of positions
+32, 4 and 1, would appear on boards 32, 4 and 1!
 
-In second grade, it was magic. Well, math-magic. It wasn't until I 
-was much (much!) older, that I uncovered the link with 
-combinatorics and binary, and thus solved the mystery. I interested 
-myself to binary in a research project of our choice in secondary 
-One (age 13), where I became acquainted with it for the first time. 
-Had it not been for that, the educational system would have teached 
-me those in [Cegep][CEGEP] (age 18), as part of my post-secondary 
-Pure Science program.
+In second grade, it was magic. Well, math-magic. It wasn't until I was
+much (much!) older, that I uncovered the link with combinatorics and
+binary, and thus solved the real mystery. I interested myself to binary
+in a research project of our choice in secondary One (age 13), where I
+became acquainted with it for the first time.  Had it not been for that,
+the educational system would have teached me those in [Cegep][CEGEP]
+(age 18), as part of my post-secondary Pure Science program.
 
 But it shows how much of a fascinating world of numbers we just don't
-teach to kids, however simple or natural it is.
+teach, however simple or natural it is.
 
 
 [CEGEP]: http://en.wikipedia.org/wiki/CEGEP
