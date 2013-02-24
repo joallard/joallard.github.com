@@ -1,0 +1,15 @@
+---
+layout: list
+title: "Jonathan Allard > Blog"
+---
+
+%article.index
+  {% for post in site.posts %}
+  %article
+    %time.square{datetime: "{{ post.date }}", title: "{{ post.date}}", pubdate: true}
+      .year {{ post.date | date: "%Y" }}
+      .day {{ post.date | date: "%d" }}
+      .month {{ post.date | date: "%b" }}
+    %h1
+      %a{href: "{{ post.url }}"} {{ post.title }}
+  {% endfor %} 

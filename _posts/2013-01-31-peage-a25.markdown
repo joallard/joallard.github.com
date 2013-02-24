@@ -1,0 +1,94 @@
+---
+layout: post
+title: "Le péage automatique du pont de l'A25"
+date: 2013-01-31 17:07
+comments: true
+categories: fees shenanigans a25 quebec fr
+
+---
+
+La semaine dernière, la Cour supérieure [a autorisé][2013QCCS76] Union
+consommateurs à déposer un recours collectif contre Concession A25, dans
+le cadre de ses opérations du pont à péage qui relie Montréal à Laval.
+
+Le fonctionnement du péage est relativement simple: vous passez sur le
+pont avec votre véhicule, chaque véhicule a une plaque, et une caméra se
+charge de noter chaque numéro de plaque pour vous envoyer la facture.
+
+<!-- more -->
+
+Pour les utilisateurs fréquents, ils peuvent s'abonner au préalable
+auprès de [A25][A25] pour "ouvrir un compte". Ouvrir un compte permet de
+recevoir de la part d'A25 un transpondeur, qui identifie les véhicules
+par le biais des ondes. Cependant, ouvrir un compte comporte une
+multitude de "frais de gestion" comme un frais initial de 50$, des frais
+mensuels de 1$ ou 2.50$, selon si le compte est en mode
+"réapprovisionnement automatique", en plus de devoir maintenir un solde
+minimal. J'ai déjà hâte d'en avoir un.
+
+Chaque passage coûte autour de 1.80$, selon la période de
+pointe. Cependant, si vous avez le malheur de ne pas ouvrir de compte
+avant votre passage (avec tous les avantages que ça a), on vous facture
+cinq dollars (5$) additionnels de, vous l'aurez deviné, frais
+d'administration. Ces frais sont, en apparence, pour faire
+l'identification par l'entremise de la SAAQ de votre plaque.
+
+L'objet du recours collectif, ce sont justement ces frais. La *Loi sur
+la protection du consommateur* québécoise force les commerçants à
+afficher le prix total, frais inclus, de façon la plus prédominante. Or,
+c'est le prix par passage sans les frais qui est affiché, le 1.80$.
+
+### Une simple consultation
+Ce qui me choque personnellement, c'est qu'on puisse justifier des frais
+de 5$ pour un vulgaire "lookup", une simple consultation.
+
+Au voir des documents sur le site d'[A25][A25], même s'ils ne font pas
+de consultation à la SAAQ, c'est 3$ (ce qu'ils appellent un "passage
+vidéo", si je ne me trompe). La partie SAAQ coûterait donc, en théorie,
+2$.
+
+Ce qui ne me revient pas, c'est comment A25 peut s'en tirer à facturer
+3$ pour entrer un numéro de plaque dans la base de données et en
+ressortir avec un nom et une adresse. Même cri d'alarme du côté de la
+SAAQ. L'opération dont on se parle, pour A25, est la suivante:
+
+1. Identifier les lettres et chiffres qui sont sur la photo
+2. Entrer ces caractères, en tant que valeur, dans une base de données
+   pour consultation
+3. Obtenir le résultat de la consultation
+
+En SQL, simplement, on exécuterait potentiellement:
+
+    SELECT * FROM vehicles WHERE plaque = '123ABC';
+
+Rien qui justifie 2$, encore moins 3$, pour cette consultation, qui en
+coûte vraisemblablement quelques cents pour chaque véhicule additionnel.
+J'exclus bien entendu les coûts de développement et d'implantation du
+système.
+
+Il y a certes des contraintes de sécurité et d'audit qui font partie de
+l'équation, mais encore là, rien qui justifie un tel coût.
+
+Pour l'identification visuelle des caractères, c'est-à-dire la
+conversion de données photographiques en une chaîne de caractères, dans
+les faits je ne sais pas si ce travail est fait manuellement. 
+
+On a entendu parler dans les dernières années, d'un dispositif qui fait
+exactement ce travail pour les policiers. Un appareil était installé sur
+le toit de leur auto-patrouille, qui détectait en temps réel si untel
+qui passait devant avait payé ses droits d'immatriculation ou de permis,
+peut-être. 
+
+Et même si c'était fait manuellement, une heure d'un travailleur à
+salaire minimum arriverait à en lire une à chaque trente secondes. Pour
+un espèce de 0.10$ la pièce.
+
+J'arrive donc à la conclusion que c'est un montant disproportionné pour
+une telle opération. Alors, à ce moment, le capitalisme dicte qu'un
+consommateur faisant face à un prix trop cher ira voir la compétition.
+Ceci est assumant qu'il connaît le prix. Si le prix est trop haut mais
+qu'on cherche à le camoufler, un recours collectif n'est peut-être pas
+étonnant.
+
+[2013QCCS76]: http://canlii.org/fr/qc/qccs/doc/2013/2013qccs76/2013qccs76.html 
+[A25]: http://www.a25.com

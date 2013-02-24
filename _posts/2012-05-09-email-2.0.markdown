@@ -1,0 +1,100 @@
+---
+layout: post
+title: "Email Addresses Are Ugly: Email 2.0"
+date: 2012-05-09 20:51
+comments: true
+categories: email namespace
+---
+
+I hate email addresses. Even if they are the main way of identifying
+someone on the internet, they are often so *ugly*. For most,
+there will be a `@gmail.com` or `@hotmail.com` in their email, or
+worse, an internet provider, like `@sympatico.ca`.
+
+When trying to establish a personal brand or even professional brand,
+these providers get in the way of having a streamlined, "clean" brand.
+
+For example, what does having `@hotmail.com` or `@yahoo.com` in your
+email say about you? Would you write this on a resumé, how would that
+affect your reputation for an employer? Maybe Gmail users are generally
+more tech-savvy than Yahoo Mail users. You see how that fragment can
+taint your image.
+
+Email addresses also suffer from another caveat. Were one to change 
+providers, the email address will have to change. The email
+address is, by design, tied to a provider.
+
+<!-- more -->
+
+Tod Maffin explains [other problems][Maffin] with our email solution.
+
+Why are email addresses tied to a server in first place? It seems 
+unrealistic that everyone would register and setup their own domain
+just to have an email. Which is basically everyone on the Internet. 
+Which is basically everyone.
+
+In the olden days of Internet dinosaurs, there were fewer users,
+servers and so registering under one employer that *had the Internet* 
+was rare enough it did the job.
+
+Our relationship with the Internet has evolved. We no longer are tied
+to one server anymore. Most of the time you'll a have a personal email,
+(or two, if you decided to change it) one for work, one for college, 
+and it goes on. Now, what if I change jobs? Volunteer? Change names?
+Grow a beard?
+
+### My Personal Solution
+So, to be free from the woes of being tied to a webmail provider name,
+I've registered my own domain name, and used it to provide a namespace
+for my email address. It looks more professional, and I can switch 
+providers (who are being forwarded mail) whenever I want.
+
+### Twitter and Facebook
+Down with the domain names! It makes sense. But like *domain names*
+(oh the irony) themselves, a small namespace will fill up quickly.
+
+### Needle in a Haystack
+So basically, we need a way to reference people (or fake people, 
+entities) in a namespace. In the "real world", we use names. But they 
+are far from being unique. Just lookup your name on Facebook.
+
+What can we discriminate on? Gender? Birth? Favorite color? This brings
+up privacy issues. Numbers? We'd feel rather insignificant.
+
+My least worst is nationality. We already do it with domain names. Hell,
+I'm doing it, as I write. `jonathanallard.ca`: "Jonathan Allard from 
+Canada" Still, my name is not unique in Canada. And what if I move? 
+What if I [don't feel Canadian][QSM]? 
+
+How do you identify a single human on a seven-billion-human Earth?
+
+### Who Receives the Email?
+Besides, eliminating domain names creates another problem: to whom 
+(what server) should email be sent, now that the server domain is 
+absent from the address?
+
+One solution would be to have it encrypted and broadcasted across a 
+peer-to-peer network, in a similar fashion to Bitcoin. Depending on 
+the size of email, this would however put more strain on the network.
+
+### Let Me Write This Down
+What is convenient, right now, is that we can use a simple string to
+represent a mailbox.
+
+Email 2.0: To the Whiteboard!
+-----------------------------
+Let's design email 2.0.
+
+### Requirements
+* A mailbox can be represented by a simple, definable string.
+* 
+
+### Questions
+* Do we have a central naming authority?
+* How much do we divide the namespace?
+* On the basis of what?
+* Are email addresses easily rememberable?
+* Is the email sent directly to one server?
+
+[Maffin]: http://todmaffin.com/email2
+[QSM]: http://en.wikipedia.org/wiki/Quebec_sovereignty_movement

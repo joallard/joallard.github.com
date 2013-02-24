@@ -1,0 +1,22 @@
+markdown: rdiscount
+permalink: /blog/posts/:title/
+
+url: http://jonathanallard.ca
+title: Pensées errantes
+subtitle: Un refuge pour les pensées de Jonathan Allard
+author: Jonathan Allard
+simple_search: http://google.com/search
+description: Technologie, politique, et peut être entrepreneuriat. Un
+  babillard pour mes pensées occasionnelles.  Sometimes in English, 
+  parfois en français.
+
+# Default date format is "ordinal" (resulting in "July 22nd 2007")
+# You can customize the format as defined in
+# http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime
+# Additionally, %o will give you the ordinal representation of the day
+date_format: "%-d %b %Y"
+              # 9 Apr 2012
+
+# RSS / Email (optional) subscription links (change if using something like Feedburner)
+subscribe_rss: /atom.xml
+subscribe_email:
