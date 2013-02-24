@@ -3,8 +3,8 @@ layout: post
 title: "Canada Post v. Geocoder.ca"
 date: 2012-04-12 00:01
 comments: true
-categories: canada-post postal-codes copyright freedom-of-information
-    canada
+categories: canada-post postal-codes copyright freedom-of-information canada
+
 ---
 
 It appears Canada Post [is suing][1] Geocoder.ca because it 
@@ -104,7 +104,7 @@ my words to describe your sentiments in a similar way.
 > délai.
 > 
 > 
-> Jonathan Allard
+> Jonathan Allard  
 > Montréal QC
 
 [1]: http://geocoder.ca/?sued=1
