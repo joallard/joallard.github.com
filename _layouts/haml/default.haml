@@ -2,7 +2,7 @@
 %html
   %head
     %meta{charset: "utf-8"}
-    %title {{ page.title }} || "Jonathan Allard > Blog"
+    %title {{ page.title || Jonathan Allard > Blog }}
     - [:inconsolata, "m-1m", "linden-hill"].each do |f|
       %script{src: "http://use.edgefonts.net/#{f}.js"}
     %link{rel: :stylesheet, href: "/stylesheets/style.css"}
