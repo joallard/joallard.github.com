@@ -11,7 +11,8 @@ body {
   padding: 0.5em; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: linden-hill, serif; }
+  font-family: linden-hill, serif;
+  margin: 1.5em 0 0.5em; }
 
 *::-selection {
   background: #d98820;
@@ -37,33 +38,33 @@ article {
   max-width: 35em;
   margin: auto; }
 
-header {
+body > header {
   font-size: 0.9em;
   overflow: hidden;
   margin: auto;
   margin-top: -1.0em;
   padding: 0.5em;
   border-bottom: 1px solid #444444; }
-  header div.title {
+  body > header div.title {
     float: left; }
-  header h1 {
+  body > header h1 {
     font-size: 1em;
     font-weight: normal;
     font-family: inherit;
     display: inline; }
-  header a {
+  body > header a {
     color: inherit; }
-  header nav {
+  body > header nav {
     float: right; }
-    header nav ul {
+    body > header nav ul {
       list-style: none;
       padding: 0;
       margin: 0; }
-    header nav li {
+    body > header nav li {
       display: inline-block; }
-    header nav li:after {
+    body > header nav li:after {
       content: " · "; }
-    header nav li:last-of-type:after {
+    body > header nav li:last-of-type:after {
       content: none; }
 
 time {
@@ -73,14 +74,14 @@ time {
   color: #868792; }
 
 article h1 {
-  margin: 2em 0 0;
+  margin: 2em 0 0.5em;
   font-size: 2.0em; }
 article h1 + time {
   margin-bottom: 2em; }
 
 p {
   text-align: justify;
-  margin: 1.5em 0; }
+  margin: 0 0 1.5em; }
 
 a {
   text-decoration: none;
