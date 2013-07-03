@@ -1,10 +1,10 @@
 ---
+published: true
 layout: post
-title: "Canada Post v. Geocoder.ca"
-date: 2012-04-12 00:01
+title: Canada Post v. Geocoder.ca
+date: "2012-04-12 00:01"
 comments: true
-categories: canada-post postal-codes copyright freedom-of-information canada
-
+categories: "canada-post postal-codes copyright freedom-of-information canada"
 ---
 
 It appears Canada Post [is suing][1] Geocoder.ca because it 
@@ -26,7 +26,7 @@ I spent many hours trying to find a way to get to Canada Post's own API
 their odd webpage (horrible Java, bis).
 
 Turns out, CPC (Canada Post, not another CPC that we know of) doesn't seem 
-to like competition, so they sue Geocoder.ca in federal court for that.
+to like competition, so they are suing Geocoder.ca in federal court for that.
 The Canadian Internet Policy and Public Interest Clinic ([CIPPIC][4]), 
 has apparently taken upon itself to represent Geocoder.ca before the
 Federal court. Thanks to them.
