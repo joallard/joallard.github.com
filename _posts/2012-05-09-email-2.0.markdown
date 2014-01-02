@@ -88,7 +88,9 @@ Let's design email 2.0.
 
 ### Requirements
 * A mailbox can be represented by a simple, definable string.
-* 
+* You can change providers while keeping the same identifier.
+* Your provider should be absent from your identifier.
+* The namespace should be sustainable. (eg. `ben@scott.com` isn't, because there are millions of Scotts, but only a few `scott.tld` owners)
 
 ### Questions
 * Do we have a central naming authority?
