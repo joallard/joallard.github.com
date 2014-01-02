@@ -1,8 +1,11 @@
 ---
 published: true
+layout: post
+title: How I Like to Solve Dilemmas
+date: 2014-01-02 04:02 -0500
+categories: thinking
 ---
 
-# How I Like to Solve Dilemmas
 Sometimes you have two seemingly equal options, each with its pros and cons, and you can't choose between.
 
 ## Applying for College
