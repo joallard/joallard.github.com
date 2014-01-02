@@ -37,7 +37,7 @@ So, no job from Aug '12 to Jul '13, getting gigs here and there, but nothing sta
 I applied to YC S13. The probable happened. I got rejected. To be fair, my application wasn't particularly stellar. Moving on.
 
 ### Being stuck is counter-productive in the bigger picture
-I come to the realization that being stuck in this state is not a productive make of my time. At worst, I could have this one fail, but at least, my time wouldn't be sucked up with this one. Actually, this is the worse. Having a zombie entertain your mind for so much time.
+I come to the realization that being stuck in this state is not a productive make of my time. At worst, I could have this one fail, but at least, my time wouldn't be sucked up with this one. Actually, this is the worse. Having a zombie entertain your mind for so much time. Every hour that is wasted here is an hour that is not spent working on another project that could be successful.
 
 ## A bit of meta - more on fear of ridicule
 Even as of writing this post, I am thinking: I have to get that minimum image, that website in place to at least be able to use that . There's also a domain name I'm waiting for to expire. But we'll shush this one out.
@@ -62,7 +62,7 @@ Though I could actually just go out without a computer and just a bunch of print
 
 Why am I stuck here when the next steps seem so easy? Just go out there and validate. How long can that take? And yet, I'm still here. Why? And why does that happen to so many people? The literature is clear on this. Why, as someone who is informed of all of those teachings, am I still here? What's going on?
 
-## Other excuses: Co-founder
+## To Co-Found or Not to Co-Found
 Do I need a co-founder? Having a second brain and being able to support one another is sure a godsend. (Pre-)startups (yes?; I'm including zombies) have their hurdles of ups and downs, and a second person is nice. But at the same time, I thought, isn'T that yet another excuse not to get something out there? As people in practicality, we are by definition not perfect, so the idea that someone else can come and fill in your gaps (read: marketing?) and give some time also sure sounds nice. 
 
 I am trying to document what is going on in the head of someone who wants to get started, seemingly has all the tools they need to move forward, but doesn't for some reason.
