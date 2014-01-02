@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Il y aura un NPD Québec"
-date: 2012-08-28 22:00
+title: Il y aura un NPD Québec
+date: "2012-08-28 22:00 -04:00"
 comments: true
-categories: politique ndp-npd npd-quebec
+categories: "politique ndp-npd npd-quebec"
+published: true
+edited: "2014-01-02 04:48 -0500"
 ---
 
 En réponse à l'article de Benjamin Dionne, 
@@ -71,17 +73,19 @@ Un parti du Québec
 La réalité de l'interne du NPD, depuis la vague orange, est que 
 c'est devenu un parti basé au Québec. 58% de ses députés sont 
 Québecois, la base de membres est passée de 2 000 à 14 000 dans la 
-dernière année. Le chef en est québécois, <del>la directrice nationale 
-est québécoise</del> \[erratum: j'ai confondu la directrice interimaire et 
-maintenant directrice adjointe Chantal Vallerand avec le directeur
-national actuel Nathan Rothman\], [la présidente][RBlaikie] s'est impliquée 
-pendant des années au 
-Québec (elle avait notamment opposé Paul Martin dans Lasalle--Émard 
-en 2004). Le NPD est très conscient qu'il doit sa position au 
+dernière année. Le chef en est québécois, 
+la directrice nationale adjointe, Chantal Vallerand, 
+est québécoise, [la présidente, Rebecca Blaikie][RBlaikie] s'est impliquée 
+pendant des années dans l'aile du parti au 
+Québec (alors dans des temps difficiles; elle avait notamment opposé Paul Martin dans Lasalle--Émard en 2004), et la vice-présidente se doit d'être francophone d'office (si la présidente ne l'est pas) est actuellement une québécoise. 
+
+Le NPD est excessivement conscient qu'il doit sa position au 
 Québec, et fera en sorte de le garder, et ça se ressent chez les 
-membres et dans le parti from coast to coast, to coast. On a besoin 
+membres et dans le parti, d'un océan à l'autre. On a besoin 
 du Québec, on veut plaire au Québec, le Québec est la pierre 
 d'assise du NPD.
+
+*Post scriptum (2014)*: En fait, au congrès de Vancouver en 2011, dans une séance de priorisation (rencontre secondaire), il est survenu un moment où on a manqué de dispositifs de traduction en direct alors que la séance se tenait en anglais. J'ai pu voir un chef adjoint Thomas Mulcair indigné, soulever un point de privilège au fait qu'il était inacceptable que des gens ne puissent pas pleinement participer en français. À Vancouver. L'opinion a fait consensus, et la séance a été suspendue jusqu'à ce que les dispositifs soient disponibles.
 
 La grande tente
 ---------------
@@ -93,11 +97,21 @@ coalition. Mais coudonc, *travaillons ensemble*.
 
 Là est le pari: le NPD, en créant un parti provincial, gage qu'il 
 peut unir les fédéralistes et souverainistes pragmatiques sous la 
-tente de centre-gauche, au provincial comme on l'a fait au fédéral. 
+tente de centre-gauche fédéraliste, au provincial comme on l'a fait au fédéral. 
+Qu'une option fédéraliste de centre-gauche *est possible* en politique Québécoise.
 Pour une fois, on ne serait pas pris entre voter pour gouverner sur 
 un référendum et basher les anglophones, et on ne voterait pas pour 
 un gouvernement de droite à la Charest/Legault. Parlez-moi de 
 quelque chose d'inspirant!
+
+* * *
+
+*(Correction: L'article faisait initialement référence à la "directrice nationale Chantal Vallerand". J'avais confondu 
+la directrice nationale intérimaire et 
+maintenant directrice adjointe Chantal Vallerand avec le directeur
+national actuel Nathan Rotman. Celle-ci occupait la direction pendant 
+la course à la chefferie, celle-ci se devant de rester neutre.)*
+
 
 [déclaration de Sherbrooke]: http://www.pierreducasse.ca/IMG/pdf/Declaration_Sherbrooke_ENG_V2.pdf
 [Gilles Robert]: http://fr.wikipedia.org/wiki/Gilles_Robert
