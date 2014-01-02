@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Email Addresses Are Ugly: Email 2.0"
-date: 2012-05-09 20:51
+date: "2012-05-09 20:51"
 comments: true
 categories: email namespace
+published: true
 ---
 
 I hate email addresses. Even if they are the main way of identifying
@@ -64,7 +65,7 @@ up privacy issues. Numbers? We'd feel rather insignificant.
 My least worst is nationality. We already do it with domain names. Hell,
 I'm doing it, as I write. `jonathanallard.ca`: "Jonathan Allard from 
 Canada" Still, my name is not unique in Canada. And what if I move? 
-What if I [don't feel Canadian][QSM]? 
+What if I don't feel Canadian? 
 
 How do you identify a single human on a seven-billion-human Earth?
 
@@ -97,4 +98,3 @@ Let's design email 2.0.
 * Is the email sent directly to one server?
 
 [Maffin]: http://todmaffin.com/email2
-[QSM]: http://en.wikipedia.org/wiki/Quebec_sovereignty_movement
