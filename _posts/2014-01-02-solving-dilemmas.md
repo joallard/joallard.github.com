@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 # How I Like to Solve Dilemmas
