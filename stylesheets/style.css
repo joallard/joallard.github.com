@@ -122,7 +122,7 @@ article.index {
 
 time.square {
   line-height: 1;
-  margin-top: 0.6em;
+  margin-top: 0.4em;
   overflow: hidden;
   display: inline-block;
   text-align: center; }
@@ -130,14 +130,19 @@ time.square {
     display: block; }
   time.square .day {
     float: left;
-    font-size: 1.7em;
-    margin-top: 0.075em; }
+    font-size: 1.8em;
+    margin-top: 0.075em;
+    width: 1em;
+  }
   time.square .month {
     float: left;
     clear: left;
     font-size: 0.65em;
     margin-top: 0.05em;
-    letter-spacing: 0.35em; }
+    letter-spacing: 0.35em;
+    text-align: center;
+    width: 2.9em;
+  }
   time.square .year {
     float: right;
     width: 1.2em;
@@ -145,3 +150,7 @@ time.square {
     line-height: 0.95;
     font-size: 0.60em;
     padding: 0.4em 0.4em; }
+  .index time.square{
+    margin-top: 0.2em
+    margin-right: 2em
+  }

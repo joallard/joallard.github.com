@@ -5,7 +5,7 @@ layout: default
 <article>
   <time class='square' datetime='{{ page.date }}' pubdate title='{{ page.date }}'>
     <div class='year'>{{ page.date | date: "%Y" }}</div>
-    <div class='day'>{{ page.date | date: "%d" }}</div>
+    <div class='day'>{{ page.date | date: "%-d" }}</div>
     <div class='month'>{{ page.date | date: "%b" }}</div>
   </time>
   <h1>{{ page.title }}</h1>
