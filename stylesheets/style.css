@@ -3,14 +3,15 @@
   -moz-box-sizing: border-box; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: source-sans-pro, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   background: #1f2126;
   color: #eef;
   padding: 0.5em; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: linden-hill, serif;
+  font-family: nixie-one, serif;
+  font-weight: normal;
   margin: 1.5em 0 0.5em; }
 
 *::-selection {
@@ -72,6 +73,9 @@ time {
 article h1 {
   margin: 2em 0 0.5em;
   font-size: 2.0em; }
+article.index h1 {
+  font-size: 1.6em;
+}
 article h1 + time {
   margin-bottom: 2em; }
 
