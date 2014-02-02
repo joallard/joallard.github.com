@@ -50,7 +50,6 @@ body > header {
   body > header h1 {
     font-size: 1em;
     font-weight: normal;
-    font-family: inherit;
     display: inline; }
   body > header a {
     color: inherit; }
