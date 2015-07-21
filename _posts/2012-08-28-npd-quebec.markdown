@@ -71,13 +71,13 @@ possible et désirable.
 Un parti du Québec
 ------------------
 La réalité de l'interne du NPD, depuis la vague orange, est que 
-c'est devenu un parti basé au Québec. 58% de ses députés sont 
+c'est devenu un parti avec une base très importante au Québec. 58% de ses députés sont 
 Québecois, la base de membres est passée de 2 000 à 14 000 dans la 
 dernière année. Le chef en est québécois, 
 la directrice nationale adjointe, Chantal Vallerand, 
 est québécoise, [la présidente, Rebecca Blaikie][RBlaikie] s'est impliquée 
 pendant des années dans l'aile du parti au 
-Québec (alors dans des temps difficiles; elle avait notamment opposé Paul Martin dans Lasalle--Émard en 2004), et la vice-présidente se doit d'être francophone d'office (si la présidente ne l'est pas) est actuellement une québécoise. 
+Québec (alors dans des temps difficiles; elle avait notamment opposé Paul Martin dans Lasalle—Émard en 2004), et la vice-présidente se doit d'être francophone d'office (si la présidente ne l'est pas) et est actuellement une québécoise. 
 
 Le NPD est excessivement conscient qu'il doit sa position au 
 Québec, et fera en sorte de le garder, et ça se ressent chez les 
@@ -106,7 +106,8 @@ quelque chose d'inspirant!
 
 * * *
 
-*(Correction: L'article faisait initialement référence à la "directrice nationale Chantal Vallerand". J'avais confondu 
+*(Correction: L'article faisait initialement référence à la 
+"directrice nationale Chantal Vallerand". J'avais confondu 
 la directrice nationale intérimaire et 
 maintenant directrice adjointe Chantal Vallerand avec le directeur
 national actuel Nathan Rotman. Celle-ci occupait la direction pendant 
