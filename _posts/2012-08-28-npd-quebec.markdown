@@ -23,49 +23,39 @@ excerpt: |
 
 ---
 
-En réponse à l'article de Benjamin Dionne, 
-[Il n'y aura pas de NPD provincial][ji-npd-qc], paru sur le 
+En réponse à l'article de Benjamin Dionne,
+[Il n'y aura pas de NPD provincial][ji-npd-qc], paru sur le
 blog du *Jeune Insolent*.
 
 ---
 
-Je suis en désaccord. Je présente ici l'opinion contraire.
-
-Pour les intéressés, je suis vice-président des communications chez 
-les [Jeunes néodémocrates du Québec](//jndq.ca). (Je suis aussi allé au 
-secondaire avec Benjamin et ai eu le député péquiste sortant 
-[Gilles Robert] dans [Saint-Jérôme][SJ-PED] comme prof d'histoire) 
-Vous me verrez peut-être partisan, mais j'essaierai de demeurer 
-objectif dans mon analyse. L'opinion que je partage est la mienne 
-et non celle du parti.
-
 La Gauche Québecoise
 --------------------
-Premièrement, la gauche au Québec n'est pas que purement 
-souverainiste. À mesure que la question nationale vieillit, en 
-effet, comme Benjamin dit, on retourne à l'axe traditionnel 
-gauche-droite. En fait, quelqu'un qui a voté NPD au fédéral 
-pourrait aussi bien le faire au provincial. Le NPD a déclaré en 
-2006, dans sa "fameuse" [déclaration de Sherbrooke], qu'il 
-reconnaîtrait un référendum *oui* à 50% plus un comme une majorité 
-claire et suffisante. C'est une conviction personnelle un peu rare, 
-mais le choix d'un gouvernement du Québec ne devrait pas 
-nécessairement être "empoisonné" par la question nationale. 
-Regardez la politique du parti vert en matière de souveraineté pour 
-un exemple. Le NPD peut faire la même chose selon moi qu'au 
-fédéral: former une coalition d'électeurs pragmatiques de 
+Premièrement, la gauche au Québec n'est pas que purement
+souverainiste. À mesure que la question nationale vieillit, en
+effet, comme Benjamin dit, on retourne à l'axe traditionnel
+gauche-droite. En fait, quelqu'un qui a voté NPD au fédéral
+pourrait aussi bien le faire au provincial. Le NPD a déclaré en
+2006, dans sa "fameuse" [déclaration de Sherbrooke], qu'il
+reconnaîtrait un référendum *oui* à 50% plus un comme une majorité
+claire et suffisante. C'est une conviction personnelle un peu rare,
+mais le choix d'un gouvernement du Québec ne devrait pas
+nécessairement être "empoisonné" par la question nationale.
+Regardez la politique du parti vert en matière de souveraineté pour
+un exemple. Le NPD peut faire la même chose selon moi qu'au
+fédéral: former une coalition d'électeurs pragmatiques de
 centre-gauche, au delà de la question nationale.
 
 <!-- more -->
 
-Les gauches fédéralistes (on pense par exemple à l'ouest de l'île de 
-Montréal) ne votent généralement pas pour QS ou PQ de peur d'avoir 
-un référendum. Un référendum est quelque chose d'indésirable et de 
-risqué pour eux, et juste d'en avoir un est un risque. D'ailleurs, 
-les politiques de nationalisme exclusif des péquistes, je pense par 
-exemple aux anglophones ici, ont l'effet d'une douche froide. Jetez 
-un coup d'oeil aux [résultats de la provinciale de 2008 dans 
-Notre-Dame-de-Grâce][NDG-assnat39]: Libéraux 68%, Verts 14%. On cherchait 
+Les gauches fédéralistes (on pense par exemple à l'ouest de l'île de
+Montréal) ne votent généralement pas pour QS ou PQ de peur d'avoir
+un référendum. Un référendum est quelque chose d'indésirable et de
+risqué pour eux, et juste d'en avoir un est un risque. D'ailleurs,
+les politiques de nationalisme exclusif des péquistes, je pense par
+exemple aux anglophones ici, ont l'effet d'une douche froide. Jetez
+un coup d'oeil aux [résultats de la provinciale de 2008 dans
+Notre-Dame-de-Grâce][NDG-assnat39]: Libéraux 68%, Verts 14%. On cherchait
 désespérément à voter fédéraliste sans voter libéral.
 
 Un paysage politique satisfaisant?
@@ -85,48 +75,68 @@ possible et désirable.
 
 Un parti du Québec
 ------------------
-La réalité de l'interne du NPD, depuis la vague orange, est que 
-c'est devenu un parti avec une base très importante au Québec. 58% de ses députés sont 
-Québecois, la base de membres est passée de 2 000 à 14 000 dans la 
-dernière année. Le chef en est québécois, 
-la directrice nationale adjointe, Chantal Vallerand, 
-est québécoise, [la présidente, Rebecca Blaikie][RBlaikie] s'est impliquée 
-pendant des années dans l'aile du parti au 
-Québec (alors dans des temps difficiles; elle avait notamment opposé Paul Martin dans Lasalle—Émard en 2004), et la vice-présidente se doit d'être francophone d'office (si la présidente ne l'est pas) et est actuellement une québécoise. 
+La réalité de l'interne du NPD, depuis la vague orange, est que
+c'est devenu un parti avec une base très importante au Québec. 58% de
+ses députés sont Québecois, la base de membres est passée de 2 000 à 14
+000 dans la dernière année. Le chef en est québécois, la directrice
+nationale adjointe, Chantal Vallerand,
+est québécoise, [la présidente, Rebecca Blaikie][RBlaikie] s'est impliquée
+pendant des années dans l'aile du parti au Québec (alors dans des temps
+difficiles; elle avait notamment opposé Paul Martin dans Lasalle—Émard
+en 2004), et la vice-présidente se doit d'être francophone d'office (si
+la présidente ne l'est pas) et est actuellement une québécoise.
 
-Le NPD est excessivement conscient qu'il doit sa position au 
-Québec, et fera en sorte de le garder, et ça se ressent chez les 
-membres et dans le parti, d'un océan à l'autre. On a besoin 
-du Québec, on veut plaire au Québec, le Québec est la pierre 
+Le NPD est excessivement conscient qu'il doit sa position au
+Québec, et fera en sorte de le garder, et ça se ressent chez les
+membres et dans le parti, d'un océan à l'autre. On a besoin
+du Québec, on veut plaire au Québec, le Québec est la pierre
 d'assise du NPD.
 
-*Post scriptum (2014)*: En fait, au congrès de Vancouver en 2011, dans une séance de priorisation (rencontre secondaire), il est survenu un moment où on a manqué de dispositifs de traduction en direct alors que la séance se tenait en anglais. J'ai pu voir un chef adjoint Thomas Mulcair indigné, soulever un point de privilège au fait qu'il était inacceptable que des gens ne puissent pas pleinement participer en français. À Vancouver. L'opinion a fait consensus, et la séance a été suspendue jusqu'à ce que les dispositifs soient disponibles.
+*Post scriptum (2014)*: En fait, au congrès de Vancouver en 2011, dans
+une séance de priorisation (rencontre secondaire), il est survenu un
+moment où on a manqué de dispositifs de traduction en direct alors que
+la séance se tenait en anglais. J'ai pu voir un chef adjoint Thomas
+Mulcair indigné, soulever un point de privilège au fait qu'il était
+inacceptable que des gens ne puissent pas pleinement participer en
+français. À Vancouver. L'opinion a fait consensus, et la séance a été
+suspendue jusqu'à ce que les dispositifs soient disponibles.
 
 La grande tente
 ---------------
-Je sais que ça pourra irriter certains solidaires, péquistes, 
-option-nationalistes (?), qui perdront des votes des leurs, et même 
-libéraux et caquistes, qui comptent sur la division de la gauche, 
-en fait tout le monde, de voir la gauche former une telle 
+Je sais que ça pourra irriter certains solidaires, péquistes,
+option-nationalistes (?), qui perdront des votes des leurs, et même
+libéraux et caquistes, qui comptent sur la division de la gauche,
+en fait tout le monde, de voir la gauche former une telle
 coalition. Mais coudonc, *travaillons ensemble*.
 
-Là est le pari: le NPD, en créant un parti provincial, gage qu'il 
-peut unir les fédéralistes et souverainistes pragmatiques sous la 
-tente de centre-gauche fédéraliste, au provincial comme on l'a fait au fédéral. 
+Là est le pari: le NPD, en créant un parti provincial, gage qu'il
+peut unir les fédéralistes et souverainistes pragmatiques sous la
+tente de centre-gauche fédéraliste, au provincial comme on l'a fait au fédéral.
 Qu'une option fédéraliste de centre-gauche *est possible* en politique Québécoise.
-Pour une fois, on ne serait pas pris entre voter pour gouverner sur 
-un référendum et basher les anglophones, et on ne voterait pas pour 
-un gouvernement de droite à la Charest/Legault. Parlez-moi de 
+Pour une fois, on ne serait pas pris entre voter pour gouverner sur
+un référendum et basher les anglophones, et on ne voterait pas pour
+un gouvernement de droite à la Charest/Legault. Parlez-moi de
 quelque chose d'inspirant!
 
 * * *
 
-*(Correction: L'article faisait initialement référence à la 
-"directrice nationale Chantal Vallerand". J'avais confondu 
-la directrice nationale intérimaire et 
+*(Correction: L'article faisait initialement référence à la
+"directrice nationale Chantal Vallerand". J'avais confondu
+la directrice nationale intérimaire et
 maintenant directrice adjointe Chantal Vallerand avec le directeur
-national actuel Nathan Rotman. Celle-ci occupait la direction pendant 
+national actuel Nathan Rotman. Celle-ci occupait la direction pendant
 la course à la chefferie, celle-ci se devant de rester neutre.)*
+
+##### Divulgation
+Pour les intéressés, au moment d'écrire ces lignes, je suis
+vice-président des communications chez
+les [Jeunes néodémocrates du Québec](//jndq.ca). (Je suis aussi allé au
+secondaire avec Benjamin et ai eu le député péquiste sortant
+[Gilles Robert] dans [Saint-Jérôme][SJ-PED] comme prof d'histoire)
+Vous me verrez peut-être partisan, mais j'ai tenté de demeurer
+objectif dans mon analyse. L'opinion que je partage est la mienne
+et non celle du parti.
+
 
 
 [déclaration de Sherbrooke]: http://www.pierreducasse.ca/IMG/pdf/Declaration_Sherbrooke_ENG_V2.pdf
