@@ -22,3 +22,4 @@ subscribe_rss: /atom.xml
 subscribe_email:
 
 google_analytics_tracking_id: UA-36815798-1
+excerpt_separator: "<!-- more -->"
