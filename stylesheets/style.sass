@@ -11,27 +11,33 @@ body
   padding: 0.5em
   margin: 0
 
+p
+  color: hsl(0, 0%, 20%)
+
 h1, h2, h3, h4, h5, h6
   font-family: "Hoefler Text", Palatino, Georgia, serif
   font-weight: bold
   margin: 1.5em 0 0.5em
 
-*::-selection, ::-moz-selection
-  background: #d98820
-  color: white
+@each $inenumerable in "*::-selection", "::-moz-selection"
+  #{$inenumerable}
+    background: hsl(214, 49%, 40%)
+    color: white
 
 pre, code
   font-family: inconsolata, monospace
 
 blockquote
   padding: 0.5em
+  border-left: 2px solid #C9C9C9
+  padding-left: 1.5em
+  p
+    color: hsl(0, 0%, 40%)
 
 pre
   padding: 0.5em
   background: rgba(0, 0, 0, 0.1)
 
-blockquote
-  color: hsl(240, 14%, 57%)
 
 article
   max-width: 35em
@@ -93,13 +99,13 @@ p
 
 a
   text-decoration: none
-  color: #ff9900
+  color: hsl(214,69%,54%)
+  &:hover
+    color: hsl(214,69%,74%)
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
   color: inherit
 
-a:hover
-  color: #ffc880
 
 hr
   margin: 0 auto 2em
