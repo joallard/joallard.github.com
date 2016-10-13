@@ -4,7 +4,7 @@
     %meta{charset: "utf-8"}
     %meta{name: :viewport, content: "width=device-width, initial-scale=1"}
     %title {{ page.title || Jonathan Allard > Blog }}
-    - [:inconsolata, "m-1m", "linden-hill"].each do |f|
+    - [:inconsolata, "source-sans-pro"].join(";").tap do |f|
       %script{src: "http://use.edgefonts.net/#{f}.js"}
     %link{rel: :stylesheet, href: "/stylesheets/style.css"}
     {% include google_analytics.html %}
@@ -20,8 +20,8 @@
               %img{src: "/images/twitter.svg", height: 12,
                 alt: "@jonathanallard", title: "@jonathanallard"}
           %li
-            %a{href: "/atom.xml"} 
-              %img{src: "/images/rss.svg", height: 12, 
+            %a{href: "/atom.xml"}
+              %img{src: "/images/rss.svg", height: 12,
                 alt: "RSS", title: "RSS"}
-              
+
     {{ content }}
