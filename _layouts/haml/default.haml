@@ -3,7 +3,13 @@
   %head
     %meta{charset: "utf-8"}
     %meta{name: :viewport, content: "width=device-width, initial-scale=1"}
-    %title {{ page.title || Jonathan Allard > Blog }}
+    %title
+      {% if page.title %}
+      {{ page.title }}
+      {% else %}
+      {{ "Jonathan Allard > Blog" }}
+      {% endif %}
+
     - [:inconsolata, "source-sans-pro"].join(";").tap do |f|
       %script{src: "http://use.edgefonts.net/#{f}.js"}
     %link{rel: :stylesheet, href: "/stylesheets/style.css"}
