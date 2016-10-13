@@ -1,0 +1,14 @@
+\---
+layout: list
+title: "Jonathan Allard &gt; Blog"
+\---
+%article.index
+  {% for post in site.posts %}
+  %article
+    %time.square{:datetime => "{{ post.date }}", :pubdate => "", :title => "{{ post.date}}"}
+      .year {{ post.date | date: "%Y" }}
+      .day {{ post.date | date: "%-d" }}
+      .month {{ post.date | date: "%b" }}
+    %h1
+      %a{:href => "{{ post.url }}"} {{ post.title }}
+  {% endfor %}
