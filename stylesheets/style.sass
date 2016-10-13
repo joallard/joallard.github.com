@@ -1,0 +1,169 @@
+---
+---
+
+*
+  box-sizing: border-box
+  -moz-box-sizing: border-box
+
+body
+  font-family: source-sans-pro, Helvetica, Arial, sans-serif
+  line-height: 1.5
+  padding: 0.5em
+  margin: 0
+
+h1, h2, h3, h4, h5, h6
+  font-family: "Hoefler Text", Palatino, Georgia, serif
+  font-weight: bold
+  margin: 1.5em 0 0.5em
+
+*::-selection, ::-moz-selection
+  background: #d98820
+  color: white
+
+pre, code
+  font-family: inconsolata, monospace
+
+blockquote
+  padding: 0.5em
+
+pre
+  padding: 0.5em
+  background: rgba(0, 0, 0, 0.1)
+
+blockquote
+  color: hsl(240, 14%, 57%)
+
+article
+  max-width: 35em
+  margin: auto
+
+body > header
+  font-size: 0.9em
+  overflow: hidden
+  background: hsl(4, 49%, 44%)
+  color: white
+  margin: -1.0em
+  margin-bottom: 0
+  padding: 0.9em 1em 0.3em
+
+  div.title
+    float: left
+
+  h1
+    font-family: source-sans-pro, Helvetica, sans-serif
+    font-weight: normal
+    font-size: 1em
+    display: inline
+
+  a
+    color: inherit
+
+  nav
+    float: right
+
+    ul
+      list-style: none
+      padding: 0
+      margin: 0
+
+    li
+      display: inline-block
+      margin: 0 0 0 6px
+
+time
+  text-transform: uppercase
+  letter-spacing: -0.01em
+  font-size: 0.85em
+  color: #868792
+
+article
+  h1
+    margin: 2em 0 0.5em
+    font-size: 2.0em
+
+  &.index h1
+    font-size: 1.6em
+
+  h1 + time
+    margin-bottom: 2em
+
+p
+  text-align: justify
+  margin: 0 0 1.5em
+
+a
+  text-decoration: none
+  color: #ff9900
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
+  color: inherit
+
+a:hover
+  color: #ffc880
+
+hr
+  margin: 0 auto 2em
+  border: 1px solid transparent
+  height: 2em
+
+  &:before
+    display: block
+    content: "* * *"
+    text-align: center
+    opacity: 0.5
+    font-size: 2em
+    letter-spacing: 0.5em
+    overflow: hidden
+
+time.square
+  float: right
+
+.index time.square
+  float: left
+
+  + h1
+    margin-left: 2em
+    font-weight: normal
+
+article.index
+  max-width: 50em
+
+  article
+    max-width: inherit
+
+time.square
+  line-height: 1
+  margin-top: 0.4em
+  overflow: hidden
+  display: inline-block
+  text-align: center
+
+  *
+    display: block
+
+  .day
+    float: left
+    font-size: 1.8em
+    margin-top: 0.075em
+    width: 1em
+
+  .month
+    float: left
+    clear: left
+    font-size: 0.65em
+    margin-top: 0.05em
+    letter-spacing: 0.35em
+    text-align: center
+    width: 2.9em
+
+  .year
+    float: right
+    width: 1.2em
+    word-wrap: break-word
+    line-height: 0.95
+    font-size: 0.60em
+    padding: 0.4em 0.4em
+
+.index time.square
+  margin-top: 0.2em
+  margin-right: 2em
