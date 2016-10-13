@@ -6,6 +6,21 @@ comments: true
 categories: "politique ndp-npd npd-quebec"
 published: true
 edited: "2014-01-02 04:48 -0500"
+excerpt: |
+    L'électorat québecois n'est pas satisfait du choix qu'on lui donne.
+    Le paysage politique est loin d'être saturé, et justement, il y a un
+    immense vide. Dans la campagne actuelle [2012], on n'exprime
+    d'enthousiasme pour aucun des chefs, et on va "au moins pire." C'est
+    d'ailleurs pourquoi Legault et la CAQ ont reçu tant de support à
+    leurs débuts, alors qu'on les voyait diriger un
+    gouvernement majoritaire dans les sondages. Le vide
+    avait été comblé avec quelque chose qui parlait au Québécois. Par
+    contre, à mesure qu'on a connu Legault, l'enthousiasme s'est évanoui
+    et nous a ramené au même état d'apathie qu'on était. Un nouveau
+    parti est encore possible et désirable.
+
+
+
 ---
 
 En réponse à l'article de Benjamin Dionne, 
@@ -55,17 +70,17 @@ désespérément à voter fédéraliste sans voter libéral.
 
 Un paysage politique satisfaisant?
 ----------------------------------
-L'électorat québecois n'est pas satisfait du choix qu'on lui donne. 
-Le paysage politique est loin d'être saturé, et justement, il y a 
-un immense vide. Dans la campagne actuelle, on n'exprime 
-d'enthousiasme pour aucun des chefs, et on va "au moins pire." 
-C'est d'ailleurs pourquoi Legault et la CAQ ont reçu 
-[tant de support à leurs débuts][CAQ-forte], alors qu'on les 
-voyait diriger un gouvernement 
-majoritaire dans [les sondages][CAQ-forte]. Le vide avait été comblé avec 
-quelque chose qui parlait au Québécois. Par contre, à mesure qu'on 
-a connu Legault, l'enthousiasme s'est évanoui et nous a ramené au 
-même état d'apathie qu'on était. Un nouveau parti est encore 
+L'électorat québecois n'est pas satisfait du choix qu'on lui donne.
+Le paysage politique est loin d'être saturé, et justement, il y a
+un immense vide. Dans la campagne actuelle \[2012], on n'exprime
+d'enthousiasme pour aucun des chefs, et on va "au moins pire."
+C'est d'ailleurs pourquoi Legault et la CAQ ont reçu
+[tant de support à leurs débuts][CAQ-forte], alors qu'on les
+voyait diriger un gouvernement
+majoritaire dans [les sondages][CAQ-forte]. Le vide avait été comblé avec
+quelque chose qui parlait au Québécois. Par contre, à mesure qu'on
+a connu Legault, l'enthousiasme s'est évanoui et nous a ramené au
+même état d'apathie qu'on était. Un nouveau parti est encore
 possible et désirable.
 
 Un parti du Québec

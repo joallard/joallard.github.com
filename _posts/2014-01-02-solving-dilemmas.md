@@ -4,6 +4,7 @@ layout: post
 title: How I Like to Solve Dilemmas
 date: 2014-01-02 04:02 -0500
 categories: thinking
+
 ---
 
 Sometimes you have two seemingly equal options, each with its pros and cons, and you can't choose between.
@@ -18,6 +19,8 @@ When I was in my last year of high school, a person from the admissions office o
 > "You're kidding me, right? My future depends on this, and you're telling me to flip a coin?"
 >
 > "It works. Here's a coin, flip. Heads is X, tails is Y."
+>
+> <!-- more -->
 >
 > "Okay. *(flips)* Aw crap, it's Y."
 >

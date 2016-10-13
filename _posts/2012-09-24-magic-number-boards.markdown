@@ -4,6 +4,7 @@ title: "The Magic Numbered Boards"
 date: 2012-09-24 16:28
 comments: true
 categories: education units-of-information math binary
+
 ---
 
 My second grade teacher used to have a magic trick. She had a series of
@@ -12,8 +13,12 @@ so.
 
 The kids had to choose a number while the teacher wasn't looking (she
 waited out in the hallway). She would then come back and show the class
-each board and ask them if *the number* was on it.  After she went
-through all the boards, she would tell us the number. Magic!
+each board and ask them if *the number* was on it. Yes, yes, no,
+no, yes...
+After we had gone through all the boards, she would tell us the number.
+Magic!
+
+<!-- more -->
 
 For the second grader that I was, it was pretty impressive. After the
 five boards or so, she knew. She must have had a damn good memory!
@@ -24,7 +29,7 @@ black board we were writing the number on, or looking through the door
 window. And they made damn sure she didn't. But this wasn't it.
 
 Time after time, I observed. And figured it out. When I asked to try at
-her place, I managed the same feat. The class was stunned.
+her place, I managed the same feat. The class was pretty stunned.
 
 The Experiment
 --------------
@@ -57,7 +62,7 @@ I've fashioned the following "boards" on scraps of paper:
     +-------------------+ +-------------------+ +-------------------+
 
 
-I've had my housemates choose a number between 1 and 60. Then show
+and had my housemates choose a number between 1 and 60. Then show
 them each card successively and ask them if their number was there.
 Half a second after we were done through the six cards, I would
 tell them their number.
@@ -89,7 +94,8 @@ Science in Cegep.
 
 The Explanation
 ---------------
-Strange thing: the boards aren't numbered sequentially. They are
+Coming back to second grade, I noticed a strange thing: the boards
+aren't numbered sequentially. They are
 numbered 1, 2, 4, 8, 16, 32. What a strange sequence for numbering 
 boards. Something's up.
 
@@ -101,7 +107,8 @@ added up to the magical number? Correct.
 
 My teacher was using the same logic as the one behind the binary numeral
 system. Either the number is one a board, or it is not. With each
-successive board, we go bit by bit. Each board represents a binary digit
+successive board, we go bit by bit (literally *bits*). Each board represents
+a binary digit
 (bit!) in the number. Over six boards, we could select one number out of
 64 (or 2^6 ). So the number 37, 100101 in binary, the sum of positions
 32, 4 and 1, would appear on boards 32, 4 and 1!
@@ -113,9 +120,6 @@ in a research project of our choice in secondary One (age 13), where I
 became acquainted with it for the first time.  Had it not been for that,
 the educational system would have teached me those in [Cegep][CEGEP]
 (age 18), as part of my post-secondary Pure Science program.
-
-But it shows how much of a fascinating world of numbers we just don't
-teach, however simple or natural it is.
 
 
 [CEGEP]: http://en.wikipedia.org/wiki/CEGEP
