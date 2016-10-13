@@ -5,13 +5,13 @@
 body {
   font-family: source-sans-pro, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  background: #1f2126;
-  color: #eef;
-  padding: 0.5em; }
+  padding: 0.5em; 
+  margin: 0;
+}
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: nixie-one, serif;
-  font-weight: normal;
+  font-family: "Hoefler Text", Palatino, Georgia, serif;
+  font-weight: bold;
   margin: 1.5em 0 0.5em; }
 
 *::-selection {
@@ -29,10 +29,11 @@ blockquote, pre {
   padding: 0.5em; }
 
 pre {
-  background: rgba(0, 0, 0, 0.25); }
+  background: rgba(0, 0, 0, 0.1); }
 
 blockquote {
-  color: #bbc; }
+  color: hsl(240, 14%, 57%); 
+}
 
 article {
   max-width: 35em;
@@ -41,15 +42,18 @@ article {
 body > header {
   font-size: 0.9em;
   overflow: hidden;
-  margin: auto;
-  margin-top: -1.0em;
-  padding: 0.5em;
-  border-bottom: 1px solid #444444; }
+  background: hsl(4, 49%, 44%);
+  color: white;
+  margin: -1.0em;
+  margin-bottom: 0;
+  padding: 0.9em 1em 0.3em; 
+}
   body > header div.title {
     float: left; }
   body > header h1 {
-    font-size: 1em;
+    font-family: source-sans-pro, Helvetica, sans-serif;
     font-weight: normal;
+    font-size: 1em;
     display: inline; }
   body > header a {
     color: inherit; }
