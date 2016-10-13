@@ -1,4 +1,4 @@
-markdown: rdiscount
+markdown: kramdown
 permalink: /blog/posts/:title/
 
 url: http://jonathanallard.ca
