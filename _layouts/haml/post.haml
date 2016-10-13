@@ -4,9 +4,9 @@
 \
 %article
   %time.square{datetime: "{{ page.date }}", title: "{{ page.date }}", pubdate: true}
-    .year {{ page.date | date: "%Y" }}
-    .day {{ page.date | date: "%-d" }}
-    .month {{ page.date | date: "%b" }}
+    %span.year {{ page.date | date: "%Y" }}
+    %span.day {{ page.date | date: "%-d" }}
+    %span.month {{ page.date | date: "%b" }}
   %h1 {{ page.title }}
   {{ content }}
 %hr
