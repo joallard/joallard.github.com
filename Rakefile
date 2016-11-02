@@ -4,7 +4,7 @@ desc "Convert HAML to HTML"
 task :haml do
   print "Converting Haml files..."
 
-  # system "haml index.haml index.html"
+  system "cp _site/index.html index.html"
   system(%{
     cd _layouts/haml &&
     for f in *.haml; do [ -e $f ] && haml $f ../${f%.haml}.html; done
