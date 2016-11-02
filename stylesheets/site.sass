@@ -1,0 +1,99 @@
+---
+---
+
+body
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+
+  > .content
+    max-width: 50em
+    margin: 0 auto
+
+a
+  color: hsl(210, 80%, 50%)
+
+
+.main.header
+  margin-top: 1em
+  overflow: hidden
+
+  .card
+    h1
+      font-size: 1.2em
+      margin-top: 0
+      > span
+        display: block
+      .name
+        color: #111
+      .description
+        font-size: 0.9rem
+        font-weight: 300
+        color: #666
+
+    p
+      font-size: 0.9rem
+
+    .photo
+      width: 50px
+      border-radius: 50px
+      border: 1px solid #888
+      float: left
+
+  .card > .content
+    margin-left: 68px
+
+  .card
+    float: left
+    @media (max-width: 560px)
+      float: none
+  .nav
+    float: right
+    text-align: right
+    @media (max-width: 560px)
+      float: none
+      text-align: center
+      margin-top: 1.7em
+      font-size: 0.9em
+
+  .nav
+    > *
+      margin: 0.3em 0 1em
+    .links
+      > *
+        display: inline-block
+        margin-left: 0.7em
+    .external
+      a
+        text-decoration: none
+    i.fa
+      font-size: 1.6em
+      margin: 0 0.2em
+      color: #333
+
+.tagline
+  text-align: center
+  padding: 1.7em 0 2em
+  @media (min-width: 561px)
+    padding: 3em 0 2em
+  p
+    max-width: 40em
+    margin: auto
+    line-height: 1.5
+    font-size: 1.2em
+    color: #111
+
+section.contact
+  font-size: 1.2em
+  .point-contact
+    text-align: center
+    margin: 1em
+    > *
+      vertical-align: middle
+    a
+      text-decoration: none
+
+  i.fa
+    margin-right: 0.6em
+    font-size: 1.3em
+  span.prefix
+    color: #999
+    padding-right: 0.2em

@@ -1,0 +1,31 @@
+!!!5
+%html
+  %head
+    %meta{charset: "utf-8"}
+    %meta{name: :viewport, content: "width=device-width, initial-scale=1"}
+    %title
+      {{ page.title }}
+
+    -# [:inconsolata, "source-sans-pro"].join(";").tap do |f|
+      %script{src: "http://use.edgefonts.net/#{f}.js"}
+    %link{rel: :stylesheet, href: "/stylesheets/site.css"}
+    %link{rel: :stylesheet, href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"}
+    {% include google_analytics.html %}
+  %body
+    -#%header
+      .title
+        %h1
+          %a{href: "/"} Jonathan Allard
+      %nav
+        %ul
+          %li
+            %a{href: "//twitter.com/jonathanallard"}
+              %img{src: "/images/twitter.svg", height: 12,
+                alt: "@jonathanallard", title: "@jonathanallard"}
+          %li
+            %a{href: "/atom.xml"}
+              %img{src: "/images/rss.svg", height: 12,
+                alt: "RSS", title: "RSS"}
+
+    .content
+      {{ content }}
