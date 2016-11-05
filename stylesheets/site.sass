@@ -97,6 +97,8 @@ section.projets
     cursor: default
 
     margin-bottom: 2%
+    @media (max-width: 459px)
+      font-size: 1.2em
     @media (min-width: 460px) and (max-width: 768px)
       width: 48%
       margin-right: 2%
@@ -140,10 +142,8 @@ section.projets
       opacity: 0
     .content
       visibility: visible
-    > img
-      opacity: 0.3
-    .overlay, > img
-      transition: opacity 250ms
+    .overlay, > img, .content
+      transition: opacity 250ms, background-color 250ms, visibility 250ms
 
   .projet > img
     display: block
@@ -151,6 +151,8 @@ section.projets
   .content
     padding: 0.2em 0.8em
     visibility: hidden
+    background: rgba(255,255,255,0.7)
+    z-index: 10
     h2
       font-size: 1em
       margin: 0.5em 0 0.1em
