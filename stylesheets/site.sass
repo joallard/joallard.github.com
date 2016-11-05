@@ -10,6 +10,10 @@ body
 
 a
   color: hsl(210, 80%, 50%)
+img
+  max-width: 100%
+*
+  box-sizing: border-box
 
 
 .main.header
@@ -81,8 +85,107 @@ a
     font-size: 1.2em
     color: #111
 
+.content > section
+  margin-top: 1.7em
+  > h1
+    margin-top: 0
+
+section.projets
+  overflow: hidden
+
+  .projet
+    cursor: default
+
+    margin-bottom: 2%
+    @media (min-width: 460px) and (max-width: 768px)
+      width: 48%
+      margin-right: 2%
+      &:nth-of-type(2n)
+        margin-right: 0
+    @media (min-width: 769px)
+      width: 31%
+      margin-right: 2%
+      &:nth-of-type(3n)
+        margin-right: 0
+
+    float: left
+    border: 1px solid hsl(0, 0%, 80%)
+    position: relative
+
+  .projet#defi28jours
+    .content strong
+      color: hsl(0, 60%, 35%)
+  .projet#lebeau, .projet#bordeaux
+    .overlay
+      background-color: hsla(221, 66%, 64%, 0.6)
+    .content strong
+      color: #245a8f
+  .projet#sail, .projet#numero
+    .overlay
+      background-color: hsla(133, 82%, 31%, 0.6)
+    .content strong
+      color: hsl(133, 82%, 31%)
+  .projet#kinder
+    .overlay
+      background-color: hsla(17, 76%, 45%, 0.6)
+
+  .projet:hover///, .projet ///
+    .overlay
+      opacity: 0
+    .content
+      visibility: visible
+    > img
+      opacity: 0.3
+    .overlay, > img
+      transition: opacity 250ms
+
+  .projet > img
+    display: block
+
+  .content
+    padding: 0.2em 0.8em
+    visibility: hidden
+    h2
+      font-size: 1em
+      margin: 0.5em 0 0.1em
+    p
+      font-weight: 400
+      font-size: 0.85em
+      margin: 0.2em 0 0
+      strong
+        font-weight: 900
+        display: block
+        font-size: 2em
+    .subtitle
+      margin: 0 0 0.7em
+      font-size: 0.75em
+
+  .overlay, .content
+    position: absolute
+    height: 100%
+    width: 100%
+    top: 0
+    left: 0
+
+  .overlay
+    background-color: hsla(0, 56%, 30%, 0.6)
+    text-align: center
+
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    padding: 0.9em 0
+
+    img
+      max-height: 100%
+      display: block
+      margin: auto
+      width: auto
+
 section.contact
   font-size: 1.2em
+  margin-top: 3.5em
+
   .point-contact
     text-align: center
     margin: 1em
