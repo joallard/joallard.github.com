@@ -1,5 +1,5 @@
 PATH
-  remote: ~/dev-os/jekyll-haml
+  remote: ../../dev-os/jekyll-haml
   specs:
     jekyll-haml (0.1.4)
       haml (>= 3.0.0)
@@ -149,4 +149,4 @@ DEPENDENCIES
   jekyll-haml!
 
 BUNDLED WITH
-   1.13.1
+   1.14.3
