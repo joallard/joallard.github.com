@@ -51,20 +51,37 @@ title: Jonathan Allard, Consultant et développeur logiciel à Montréal
   %h1 Projets réalisés
 
   .liste.projets
-    .projet#defi28jours(tabindex=0)
-      %img(src="/images/projets/defi28.jpg")
-      .overlay
-        %img(src="/images/projets/28jours.png" style="height: 48%")
-        %img(src="/images/projets/adviso.png" style="height: 26%")
+    .projet#teotaxi
+      .image
+        %img(src="/images/projets/teo.png")
+
+      .content
+        %h2 Téo Taxi
+        %p.subtitle
+          %span.time 2017
+          %span.who Taxelco
+
+        :markdown
+          Conception et mise en place du moteur de répartition des courses.
+          Refonte et mise en ligne du moteur de ETL.
+
+    .projet#defi28jours
+      .image
+        %img(src="/images/projets/defi28.jpg")
+        .overlay
+          %img(src="/images/projets/28jours.png" style="height: 48%")
+          %img(src="/images/projets/adviso.png" style="height: 26%")
       .content
         %h2 Le Défi 28 jours sans alcool
-        %p.subtitle Fondation Jean Lapointe / Adviso
+        %p.subtitle
+          %span.time 2014–2017
+          %span.who Fondation Jean Lapointe / Adviso
 
         :markdown
           **680 000$** récoltés sur la plateforme transactionnelle pour
           la prévention au secondaire de l'alcoolisme
 
-    .projet#lebeau(tabindex=0)
+    -#.projet#lebeau(tabindex=0)
       %img(src="/images/projets/lebeau-scr149.png")
       .overlay
         %img(src="/images/projets/lebeau-logo.png" style="height: 36%")
@@ -78,7 +95,7 @@ title: Jonathan Allard, Consultant et développeur logiciel à Montréal
           taux d'ouverture de courriels de
           **54%**
 
-    .projet#sail(tabindex=0)
+    -#.projet#sail(tabindex=0)
       %img(src="/images/projets/sail-scr149.jpg")
       .overlay
         %img(src="/images/projets/sail-logo.png" style="height: 33%")
@@ -91,21 +108,24 @@ title: Jonathan Allard, Consultant et développeur logiciel à Montréal
           **20 000** coupons rabais demandés
           en 3&nbsp;jours, augmentation des ventes en magasin.
 
-    .projet#kinder(tabindex=0)
-      %img(src="/images/projets/kinder-scr.png")
-      .overlay
-        %img(src="/images/projets/kinder.png" style="height: 33%")
-        %img(src="/images/projets/hk-logo.png" style="height: 23%")
+    .projet#kinder
+      .image
+        %img(src="/images/projets/kinder-scr.png")
+        .overlay
+          %img(src="/images/projets/kinder.png" style="height: 33%")
+          %img(src="/images/projets/hk-logo.png" style="height: 23%")
 
       .content
         %h2 Déballez un sourire
-        %p.subtitle Kinder Canada / Hill+Knowlton
+        %p.subtitle
+          %span.time 2014
+          %span.who Kinder Canada / Hill+Knowlton
 
         :markdown
           Application ludique de transformation de photos,
           conception responsive et interactive
 
-    .projet#numero(tabindex=0)
+    -#.projet#numero(tabindex=0)
       %img(src="/images/projets/numero-ph.jpg")
       .overlay
         %img(src="/images/projets/numero-logo.png" style="height: 33%")
@@ -118,15 +138,18 @@ title: Jonathan Allard, Consultant et développeur logiciel à Montréal
           Temps de réponse moyen
           **135ms**
 
-    .projet#bordeaux(tabindex=0)
-      %img(src="/images/projets/bordeaux-scr.jpg")
-      .overlay
-        %img(src="/images/projets/saq.png" style="height: 48%")
-        %img(src="/images/projets/esi.png" style="height: 23%")
+    .projet#bordeaux
+      .image
+        %img(src="/images/projets/bordeaux-scr.jpg")
+        .overlay
+          %img(src="/images/projets/saq.png" style="height: 48%")
+          %img(src="/images/projets/esi.png" style="height: 23%")
 
       .content
         %h2 Vins de Bordeaux
-        %p.subtitle SAQ / ESI Marketing
+        %p.subtitle
+          %span.time 2014
+          %span.who SAQ / ESI Marketing
 
         :markdown
           **4 500** quiz joués en 5 jours
