@@ -3,148 +3,146 @@ layout: default
 title: Jonathan Allard, Consultant et développeur logiciel à Montréal
 ---
 
-.tagline
-  :markdown
-    Applications sociales  
-    Outils de marketing social  
-    Acquisition de leads
+%section.section.hero.is-medium#hero
+  .hero-body
+    .container
+      .subtitle Jonathan Allard
+      %h1.title Concepteur et développeur <br>d'applications web
 
-    Des applications
-    **bien pensées**, **fiables** et **performantes**.
+%section.section.projets#projets
+  .container
+    %h1 Projets réalisés
 
-%section.projets#projets
-  %h1 Projets réalisés
+    .liste.projets
+      .projet#teotaxi
+        .image
+          %img(src="/images/projets/teo.png")
 
-  .liste.projets
-    .projet#teotaxi
-      .image
-        %img(src="/images/projets/teo.png")
+        .content
+          %h2 Téo Taxi
+          %p.subtitle
+            %span.time 2017
+            %span.who Taxelco
 
-      .content
-        %h2 Téo Taxi
-        %p.subtitle
-          %span.time 2017
-          %span.who Taxelco
+          :markdown
+            Conception et mise en place du moteur de répartition des courses.
+            Refonte et mise en ligne du moteur de ETL.
 
-        :markdown
-          Conception et mise en place du moteur de répartition des courses.
-          Refonte et mise en ligne du moteur de ETL.
+      .projet#defi28jours
+        .image
+          %img(src="/images/projets/defi28.jpg")
+          .overlay
+            %img(src="/images/projets/28jours.png" style="height: 48%")
+            %img(src="/images/projets/adviso.png" style="height: 26%")
+        .content
+          %h2 Le Défi 28 jours sans alcool
+          %p.subtitle
+            %span.time 2014–2017
+            %span.who Fondation Jean Lapointe / Adviso
 
-    .projet#defi28jours
-      .image
-        %img(src="/images/projets/defi28.jpg")
+          :markdown
+            **680 000$** récoltés sur la plateforme transactionnelle pour
+            la prévention au secondaire de l'alcoolisme
+
+      -#.projet#lebeau(tabindex=0)
+        %img(src="/images/projets/lebeau-scr149.png")
         .overlay
-          %img(src="/images/projets/28jours.png" style="height: 48%")
-          %img(src="/images/projets/adviso.png" style="height: 26%")
-      .content
-        %h2 Le Défi 28 jours sans alcool
-        %p.subtitle
-          %span.time 2014–2017
-          %span.who Fondation Jean Lapointe / Adviso
+          %img(src="/images/projets/lebeau-logo.png" style="height: 36%")
+          %img(src="/images/projets/ecorce.png" style="height: 18%")
+        .content
+          %h2 Une amitié sans faille
+          %p.subtitle Lebeau Vitres d'autos / Écorce
 
-        :markdown
-          **680 000$** récoltés sur la plateforme transactionnelle pour
-          la prévention au secondaire de l'alcoolisme
+          :markdown
+            Identification du marché cible immédiat,
+            taux d'ouverture de courriels de
+            **54%**
 
-    -#.projet#lebeau(tabindex=0)
-      %img(src="/images/projets/lebeau-scr149.png")
-      .overlay
-        %img(src="/images/projets/lebeau-logo.png" style="height: 36%")
-        %img(src="/images/projets/ecorce.png" style="height: 18%")
-      .content
-        %h2 Une amitié sans faille
-        %p.subtitle Lebeau Vitres d'autos / Écorce
-
-        :markdown
-          Identification du marché cible immédiat,
-          taux d'ouverture de courriels de
-          **54%**
-
-    -#.projet#sail(tabindex=0)
-      %img(src="/images/projets/sail-scr149.jpg")
-      .overlay
-        %img(src="/images/projets/sail-logo.png" style="height: 33%")
-        %img(src="/images/projets/absolunet.png" style="height: 31%")
-      .content
-        %h2 Rabais personnalité Sail
-        %p.subtitle Sail / Absolunet
-
-        :markdown
-          **20 000** coupons rabais demandés
-          en 3&nbsp;jours, augmentation des ventes en magasin.
-
-    .projet#kinder
-      .image
-        %img(src="/images/projets/kinder-scr.png")
+      -#.projet#sail(tabindex=0)
+        %img(src="/images/projets/sail-scr149.jpg")
         .overlay
-          %img(src="/images/projets/kinder.png" style="height: 33%")
-          %img(src="/images/projets/hk-logo.png" style="height: 23%")
+          %img(src="/images/projets/sail-logo.png" style="height: 33%")
+          %img(src="/images/projets/absolunet.png" style="height: 31%")
+        .content
+          %h2 Rabais personnalité Sail
+          %p.subtitle Sail / Absolunet
 
-      .content
-        %h2 Déballez un sourire
-        %p.subtitle
-          %span.time 2014
-          %span.who Kinder Canada / Hill+Knowlton
+          :markdown
+            **20 000** coupons rabais demandés
+            en 3&nbsp;jours, augmentation des ventes en magasin.
 
-        :markdown
-          Application ludique de transformation de photos,
-          conception responsive et interactive
+      .projet#kinder
+        .image
+          %img(src="/images/projets/kinder-scr.png")
+          .overlay
+            %img(src="/images/projets/kinder.png" style="height: 33%")
+            %img(src="/images/projets/hk-logo.png" style="height: 23%")
 
-    -#.projet#numero(tabindex=0)
-      %img(src="/images/projets/numero-ph.jpg")
-      .overlay
-        %img(src="/images/projets/numero-logo.png" style="height: 33%")
-      .content
-        %h2 Numéro
-        %p.subtitle Startup
+        .content
+          %h2 Déballez un sourire
+          %p.subtitle
+            %span.time 2014
+            %span.who Kinder Canada / Hill+Knowlton
 
-        :markdown
-          Back-end téléphonique à fiabilité accrue.
-          Temps de réponse moyen
-          **135ms**
+          :markdown
+            Application ludique de transformation de photos,
+            conception responsive et interactive
 
-    .projet#bordeaux
-      .image
-        %img(src="/images/projets/bordeaux-scr.jpg")
+      -#.projet#numero(tabindex=0)
+        %img(src="/images/projets/numero-ph.jpg")
         .overlay
-          %img(src="/images/projets/saq.png" style="height: 48%")
-          %img(src="/images/projets/esi.png" style="height: 23%")
+          %img(src="/images/projets/numero-logo.png" style="height: 33%")
+        .content
+          %h2 Numéro
+          %p.subtitle Startup
 
-      .content
-        %h2 Vins de Bordeaux
-        %p.subtitle
-          %span.time 2014
-          %span.who SAQ / ESI Marketing
+          :markdown
+            Back-end téléphonique à fiabilité accrue.
+            Temps de réponse moyen
+            **135ms**
 
-        :markdown
-          **4 500** quiz joués en 5 jours
-          pour faire découvrir les vins blancs de Bordeaux.
+      .projet#bordeaux
+        .image
+          %img(src="/images/projets/bordeaux-scr.jpg")
+          .overlay
+            %img(src="/images/projets/saq.png" style="height: 48%")
+            %img(src="/images/projets/esi.png" style="height: 23%")
 
-  %section.autres
-    %h2 Autres projets réalisés
+        .content
+          %h2 Vins de Bordeaux
+          %p.subtitle
+            %span.time 2014
+            %span.who SAQ / ESI Marketing
 
-    %p.autres
-      :ruby
-        autres = [
-          "Cirque du Soleil",
-          "Uniprix",
-          "L'Autorité des marchés financiers",
-          "Yves Rocher",
-          "Ministère de la santé et des services sociaux (Québec)",
-          "Vélo Québec",
-          "Arctic Gardens",
-          "Clarins",
-          "Banque Nationale Assurances",
-          "Super Écran / Bell Media",
-          "Vacances Air Canada",
-          "Aubainerie",
-          "Cogeco",
-          "Énergie Cardio",
-          "Sportium",
-          "Oasis",
-          "Little Burgundy / Aldo",
-        ]
-      = autres.join(" · ")
+          :markdown
+            **4 500** quiz joués en 5 jours
+            pour faire découvrir les vins blancs de Bordeaux.
+
+    .autres
+      %h2 Autres projets réalisés
+
+      %p.autres
+        :ruby
+          autres = [
+            "Cirque du Soleil",
+            "Uniprix",
+            "L'Autorité des marchés financiers",
+            "Yves Rocher",
+            "Ministère de la santé et des services sociaux (Québec)",
+            "Vélo Québec",
+            "Arctic Gardens",
+            "Clarins",
+            "Banque Nationale Assurances",
+            "Super Écran / Bell Media",
+            "Vacances Air Canada",
+            "Aubainerie",
+            "Cogeco",
+            "Énergie Cardio",
+            "Sportium",
+            "Oasis",
+            "Little Burgundy / Aldo",
+          ]
+        = autres.join(" · ")
 
 
 -#%section#tech
@@ -154,22 +152,34 @@ title: Jonathan Allard, Consultant et développeur logiciel à Montréal
       %i.fa.fa-rails
       Rails
 
-%section.contact#contact
-  %h1 Contact
+%section.section.contact#contact
+  .container
+    %h1 Contact
 
-  .point-contact
-    %i.fa.fa-at
-    %span
-      :plain
-        <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'&'+'#'+'9'+'7'+';'+'&'+'#'+'1'+'0'+'5'+';'+'l'+'t'+'&'+'#'+
-        '1'+'1'+'1'+';'+'&'+'#'+'5'+'8'+';'+'i'+'n'+'f'+'o'+'&'+'#'+'6'+'4'+';'+'&'+'#'+'3'+'7'+';'+'&'+'#'+
-        '5'+'4'+';'+'&'+'#'+'6'+'5'+';'+'o'+'n'+'&'+'#'+'9'+'7'+';'+'t'+'&'+'#'+'1'+'0'+'4'+';'+'a'+'&'+'#'+
-        '1'+'1'+'0'+';'+'&'+'#'+'9'+'7'+';'+'l'+'%'+'6'+'C'+'&'+'#'+'9'+'7'+';'+'r'+'%'+'6'+'&'+'#'+'5'+'2'+
-        ';'+'&'+'#'+'4'+'6'+';'+'c'+'%'+'&'+'#'+'5'+'4'+';'+'1'+"'"+'>'+'i'+'&'+'#'+'1'+'1'+'0'+';'+'f'+'&'+
-        '#'+'1'+'1'+'1'+';'+'&'+'#'+'6'+'4'+';'+'j'+'&'+'#'+'1'+'1'+'1'+';'+'n'+'a'+'t'+'h'+'a'+'n'+'a'+'l'+
-        'l'+'a'+'r'+'d'+'&'+'#'+'4'+'6'+';'+'c'+'a'+'<'+'/'+'a'+'>');</script><noscript>[Turn on JavaScript to see the email address]</noscript>
+    .point-contact
+      %i.fa.fa-at
+      %span
+        :plain
+          <script>document.write('<'+'a'+' '+'h'+'r'+'e'+'f'+'='+"'"+'m'+'&'+'#'+'9'+'7'+';'+'&'+'#'+'1'+'0'+'5'+';'+'l'+'t'+'&'+'#'+
+          '1'+'1'+'1'+';'+'&'+'#'+'5'+'8'+';'+'i'+'n'+'f'+'o'+'&'+'#'+'6'+'4'+';'+'&'+'#'+'3'+'7'+';'+'&'+'#'+
+          '5'+'4'+';'+'&'+'#'+'6'+'5'+';'+'o'+'n'+'&'+'#'+'9'+'7'+';'+'t'+'&'+'#'+'1'+'0'+'4'+';'+'a'+'&'+'#'+
+          '1'+'1'+'0'+';'+'&'+'#'+'9'+'7'+';'+'l'+'%'+'6'+'C'+'&'+'#'+'9'+'7'+';'+'r'+'%'+'6'+'&'+'#'+'5'+'2'+
+          ';'+'&'+'#'+'4'+'6'+';'+'c'+'%'+'&'+'#'+'5'+'4'+';'+'1'+"'"+'>'+'i'+'&'+'#'+'1'+'1'+'0'+';'+'f'+'&'+
+          '#'+'1'+'1'+'1'+';'+'&'+'#'+'6'+'4'+';'+'j'+'&'+'#'+'1'+'1'+'1'+';'+'n'+'a'+'t'+'h'+'a'+'n'+'a'+'l'+
+          'l'+'a'+'r'+'d'+'&'+'#'+'4'+'6'+';'+'c'+'a'+'<'+'/'+'a'+'>');</script><noscript>[Turn on JavaScript to see the email address]</noscript>
 
-  .point-contact
-    %i.fa.fa-phone
-    %span.prefix +1
-    %span 438 793-7933
+    .point-contact
+      %i.fa.fa-phone
+      %span.prefix +1
+      %span 438 793-7933
+
+%section.section.footer
+  .container
+    .signature
+      Consultation Jonathan Allard<br>
+      Montréal, Québec
+
+    .attributions
+      %h3 Attributions et remerciements photo
+      :markdown
+        King's Cross: Michał Parzuchowski / Unsplash
