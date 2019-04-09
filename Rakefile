@@ -5,10 +5,10 @@ task :haml do
   print "Converting Haml files..."
 
   system "cp _site/index.html index.html"
-  system(%{
-    cd _layouts/haml &&
-    for f in *.haml; do [ -e $f ] && haml $f ../${f%.haml}.html; done
-  })
+  # system(%{
+  #   cd _layouts/haml &&
+  #   for f in *.haml; do [ -e $f ] && haml $f ../${f%.haml}.html; done
+  # })
 
   print "\e[32m"
   print "done."
